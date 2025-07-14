@@ -10,28 +10,6 @@
 
 *MENTOR*: NEELA SANTOSH
 
-# 🍽️ AI-Based Recipe Recommendation System
 
-This project is a smart, AI-powered recipe recommendation system built using **Java (Spring Boot)** and **Apache Mahout**. It provides personalized recipe suggestions based on user preferences and ingredient-based filters.
+## This AI-based Recipe Recommendation System is a smart web backend developed using Java, Spring Boot, and Apache Mahout. It provides personalized recipe suggestions using user-based collaborative filtering and also supports ingredient-based filtering to help users find recipes based on what they have. The system reads user ratings and recipe data from CSV files and generates tailored recommendations through Mahout’s machine learning engine. Users can get suggestions like "Pasta" based on their previous activity or request filtered results like "Omelette" by entering ingredients such as "egg" and "onion." Built with Maven and structured to allow easy frontend integration (e.g., React), this project is ideal for showcasing recommender system skills in resumes, academic submissions, or internship portfolios.## OUTPUT <img width="1893" height="968" alt="Screenshot 2025-07-14 223820" src="https://github.com/user-attachments/assets/578b7a3c-e0af-4324-a76b-821645c66f74" />
 
-## 📌 Features
-
-- 🔁 **User-Based Collaborative Filtering** using Apache Mahout
-- 🧾 **Ingredient-Based Filtering** (e.g., suggest recipes with "egg" and "onion")
-- 🧠 **Hybrid Recommendation** combining ratings and ingredients
-- 📂 CSV-driven dataset with support for expansion to databases
-- ⚙️ Built with Maven and Spring Boot
-
-## 🛠️ Tech Stack
-
-| Layer         | Technology                       |
-|---------------|----------------------------------|
-| Backend       | Java, Spring Boot, Apache Mahout |
-| Recommendation Engine | User-Based Filtering (Mahout) |
-| Build Tool    | Maven                            |
-| Data Format   | CSV Files                         |
-| Frontend (optional) | React or HTML/JS (future)  |
-
-## 📁 Dataset Format
-
-### `ratings.csv`
